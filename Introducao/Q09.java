@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class Q09 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.err.print("Insira o numero da carta de 1 (ás) até 13 (rei): ");
+        System.out.print("Insira o numero da carta de 1 (ás) até 13 (rei): ");
         int numero = scan.nextInt();
         if (numero < 1 || numero > 13) {
             System.err.println("Número inválido");
             System.exit(0);
         }
-        System.err.print("Insira o naipe (1 = Ouros)(2 = Paus)(3 = Copas)(4 = Espadas): ");
+        System.out.print("Insira o naipe (1 = Ouros)(2 = Paus)(3 = Copas)(4 = Espadas): ");
         int naipe = scan.nextInt();
         if (naipe < 1 || naipe > 4) {
             System.err.println("Número inválido");
             System.exit(0);
         }
-        System.err.printf("%s de %s\n",nome_carta(numero),naipe_carta(naipe));
+        System.out.printf("%s de %s\n",nome_carta(numero),naipe_carta(naipe));
         scan.close();
     }
 

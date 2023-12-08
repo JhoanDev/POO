@@ -9,13 +9,13 @@ public class Q07 {
             vet[i] = scan.nextDouble();
         }
         if (vet[0] <= vet[1] && vet[0] <= vet[2]) {
-            System.err.println("O menor número é: "+ vet[0]);
+            System.out.println("O menor número é: "+ vet[0]);
         }
         else if (vet[1] <= vet[0] && vet[1] <= vet[2]) {
-            System.err.println("O menor número é: "+ vet[1]);
+            System.out.println("O menor número é: "+ vet[1]);
         }
         else{
-            System.err.println("O menor número é: "+ vet[2]);
+            System.out.println("O menor número é: "+ vet[2]);
         }
         scan.close();
     }

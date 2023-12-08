@@ -38,7 +38,7 @@ public class Q11 {
             } else {
                 System.out.print("O ponto está exatamente no mesmo local do primeiro ponto.");
             }
-            System.err.println("");
+            System.out.println("");
         }
         scan.close();
     }

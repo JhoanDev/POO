@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Q06 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.err.print("Insira os minutos totais: ");
+        System.out.print("Insira os minutos totais: ");
         int mintotal = scan.nextInt();
         scan.close();
         int dias = 0;
