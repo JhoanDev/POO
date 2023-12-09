@@ -5,19 +5,18 @@ public class Q19 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Informe o fatorial que deseja calcular: ");
         int n = scan.nextInt();
-        int fat = fatorial(n, 0);
+        int fat = fatorial(n, n);
         System.out.println("\nO fatorial de " + n + " é: " + fat);
         scan.close();
     }
 
     public static int fatorial(int fat, int nivelRecursao) {
         if (fat == 0) {
-            System.out.println(getRecuo(nivelRecursao) + "Fatorial de 0 é 1");
+            System.out.println(getRecuo(nivelRecursao) + "0! = 1");
             return 1;
         } else {
-            System.out.println(getRecuo(nivelRecursao) + "Calculando fatorial de " + fat);
-            int resultado = fat * fatorial(fat - 1, nivelRecursao + 1);
-            System.out.println(getRecuo(nivelRecursao) + "Fatorial de " + fat + " é " + resultado);
+            int resultado = fat * fatorial(fat - 1, nivelRecursao - 1);
+            System.out.println(getRecuo(nivelRecursao) + fat + "! = " + resultado);
             return resultado;
         }
     }
