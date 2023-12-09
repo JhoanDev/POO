@@ -5,8 +5,8 @@ public class Q14 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Insira quantos termos da série de fibonnaci deseja: ");
         int termos = scan.nextInt();
-        if (termos < 0) {
-            System.err.println("[ERRO]");
+        if (termos <= 0) {
+            System.err.println("[ERRO] insira um valor > 0");
             System.exit(0);
         }
         int ant = 0;
