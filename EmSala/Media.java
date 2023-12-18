@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Media {
-
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double vet[] = new double[3];
