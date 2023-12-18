@@ -1,4 +1,4 @@
-package classes;
+package classes.data;
 
 public class Data {
     int dia;
