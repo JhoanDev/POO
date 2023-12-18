@@ -1,5 +1,3 @@
-package classes.Faculdade;
-
 public class RegristroAcademico {
     String nome;
     String matricula;

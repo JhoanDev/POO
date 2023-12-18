@@ -1,5 +1,3 @@
-package CriacaodeClasses.Q23;
-
 public class Time {
     private String nome;
     private int vitorias;
@@ -7,6 +5,4 @@ public class Time {
     private int empates;
     private int pontos;
     private int saldo;
-
-    public
 }

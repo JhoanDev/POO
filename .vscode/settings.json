@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Introducao",
+        "EmSala/classes/triangulo",
+        "EmSala/classes/evento",
+        "EmSala/classes/data",
+        "EmSala/classes/Faculdade",
+        "EmSala/Introducao",
+        "CriacaodeClasses/Q23"
+    ]
+}

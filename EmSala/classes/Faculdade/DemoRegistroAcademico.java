@@ -1,5 +1,3 @@
-package classes.Faculdade;
-
 public class DemoRegistroAcademico {
     public static void main(String[] args) {
         RegristroAcademico michael = new RegristroAcademico();

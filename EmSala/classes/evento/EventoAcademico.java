@@ -1,5 +1,3 @@
-package EmSala.classes.evento;
-
 public class EventoAcademico {
     String nomeDoEvento;
     String localDoEvento;

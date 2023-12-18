@@ -1,5 +1,3 @@
-package classes.data;
-
 public class Data {
     int dia;
     int mes;
