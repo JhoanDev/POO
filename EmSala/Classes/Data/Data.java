@@ -1,19 +1,24 @@
 public class Data {
-    int dia;
-    int mes;
-    int ano;
+    private int dia;
+    private int mes;
+    private int ano;
 
-    Boolean dataValida(){
+    private Boolean dataValida(){
         return (dia >= 1 && dia <=30 && mes>=1 && mes <= 12 && ano >= 0);
     }
 
-    void inicializaData(int d, int m, int a){
+    public void inicializaData(int d, int m, int a){
         dia = d;
         mes = m;
         dia = a;
+        if (dataValida()) {
+            dia = 1;
+            mes = 1;
+            ano = 1971;
+        }
     }
 
-    void mostraData(){
+    public void mostraData(){
         System.out.println(dia + "/" + mes + "/" + ano);
     }
 }
