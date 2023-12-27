@@ -42,8 +42,8 @@ public class Time {
         System.out.printf("%s %dx%d %s\n", this.nome, golsA, golsB, b.nome);
     }
 
-    void exibirTime() {
-        System.out.printf("Nome:%s\tPontos:%d\tVitórias:%d\tEmpates:%d\tSaldo:%d\n", nome, pontos, vitorias, empates,
-                saldo);
+    public String toString() {
+        return String.format("Nome:%s\tPontos:%d\tVitórias:%d\tDerrotas:%d\tEmpates:%d\tSaldo:%d",
+                nome, pontos, vitorias, derrotas, empates, saldo);
     }
 }
