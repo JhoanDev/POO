@@ -5,5 +5,6 @@ public class DemoTriangulo {
         t2 = new Triangulo();
         t1.inicializaTriangulo(2.5,2.5,2.5,"equilatero");
         t2.inicializaTriangulo(2.5,2.5,2.5,"equilatero");
+        System.out.println(t1);
     }
 }

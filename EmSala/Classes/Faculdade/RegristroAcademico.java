@@ -14,4 +14,8 @@ public class RegristroAcademico {
     public double calculaMensalidade(){
         return 100*codigoCurso*percentualDeCobranca;
     }
+
+    public String toString(){
+        return ("Nome: " + nome + "\nMatricula: " + matricula + "\nCódigo: " + codigoCurso + "\nMensalidade: " + calculaMensalidade());
+    }
 }
