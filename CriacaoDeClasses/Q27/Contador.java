@@ -8,8 +8,12 @@ public class Contador {
     public void incrementar() {
         this.contagem++;
     }
-    
+
+    public int getContagem() {
+        return this.contagem;
+    }
+
     public void imprimirContagem() {
-        System.out.println("Contador: " + this.contagem);
+        System.out.println("Contador: " + getContagem());
     }
 }
