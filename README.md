@@ -16,6 +16,8 @@ As pastas estão nomeadas com o formato (letra)_NomeDoAssunto para melhor organi
 
 - `B_CriacaoDeClasses`: Atividades sobre criação e uso de classes e objetos em Java.
 
+- `C_Arrays_ArraysList`: Atividades sobre arrays e ArrayLists em Java.
+
 - `Z_EmSala`: Atividades desenvolvidas em sala sobre diversos tópicos.
 
     - `A_Introducao`: Atividades básicas em Java.
