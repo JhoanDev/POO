@@ -20,6 +20,8 @@ As pastas estão nomeadas com o formato (letra)_NomeDoAssunto para melhor organi
 
 - `Z_EmSala`: Atividades desenvolvidas em sala sobre diversos tópicos.
 
+- `D_Reuso`: Atividades sobre reuso de classes e herança em Java.
+
     - `A_Introducao`: Atividades básicas em Java.
 
     - `B_CriacaoDeClasses`: Atividades sobre criação e uso de classes e objetos em Java.
