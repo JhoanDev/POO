@@ -18,9 +18,9 @@ As pastas estão nomeadas com o formato (letra)_NomeDoAssunto para melhor organi
 
 - `C_Arrays_ArraysList`: Atividades sobre arrays e ArrayLists em Java.
 
-- `Z_EmSala`: Atividades desenvolvidas em sala sobre diversos tópicos.
-
 - `D_Reuso`: Atividades sobre reuso de classes e herança em Java.
+
+- `Z_EmSala`: Atividades desenvolvidas em sala sobre diversos tópicos.
 
     - `A_Introducao`: Atividades básicas em Java.
 
