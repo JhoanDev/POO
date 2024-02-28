@@ -29,3 +29,5 @@ As pastas estão nomeadas com o formato (letra)_NomeDoAssunto para melhor organi
     - `C_Arrays_ArraysList`: Atividades sobre arrays e ArrayLists em Java.
 
     - `D_Reuso`: Atividades sobre reuso de classes e herança em Java.
+
+    - `E_ClassesAbstratas_Polimorfismo_interfaces`: Atividades sobre abstração, polimorfismo e interfaces em Java.
