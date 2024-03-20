@@ -1,33 +1,31 @@
-# Programação Orientada a Objetos
+# Programação Orientada a Objetos em Java
 
 ## Descrição
 
 Este repositório contém uma série de códigos desenvolvidos em Java para atividades relacionadas à Programação Orientada a Objetos (POO).
 
-O objetivo deste repositório é armazenar minhas atividades durante a disciplina de POO.
+O objetivo deste repositório é armazenar minhas atividades durante a disciplina de POO, fornecendo exemplos práticos e exercícios resolvidos para auxiliar no aprendizado.
 
-Cada pasta contém os códigos desenvolvidos durante as atividades relacionadas ao tópico específico. Sinta-se à vontade para baixar e modificar os códigos conforme suas necessidades.
+Cada pasta contém os códigos desenvolvidos durante as atividades relacionadas ao tópico específico, com uma breve descrição do conteúdo abordado.
 
-## Lista de pastas
+Sinta-se à vontade para baixar e modificar os códigos conforme suas necessidades.
 
-As pastas estão nomeadas com o formato (letra)_NomeDoAssunto para melhor organização:
+## Lista de Pastas
 
-- `A_Introducao`: Atividades básicas em Java.
+As pastas estão organizadas de acordo com os seguintes tópicos:
 
-- `B_CriacaoDeClasses`: Atividades sobre criação e uso de classes e objetos em Java.
+- **A_Introducao**: Atividades básicas em Java, introduzindo conceitos fundamentais da linguagem.
 
-- `C_Arrays_ArraysList`: Atividades sobre arrays e ArrayLists em Java.
+- **B_CriacaoDeClasses**: Atividades sobre criação e utilização de classes e objetos em Java.
 
-- `D_Reuso`: Atividades sobre reuso de classes e herança em Java.
+- **C_Arrays_ArraysList**: Atividades sobre arrays e ArrayLists em Java, abordando estruturas de dados comuns.
 
-- `Z_EmSala`: Atividades desenvolvidas em sala sobre diversos tópicos.
+- **D_Reuso**: Atividades sobre reuso de classes e herança em Java, explorando a hierarquia de classes.
 
-    - `A_Introducao`: Atividades básicas em Java.
+- **E_ClassesAbstratas_Polimorfismo_interfaces**: Atividades sobre abstração, polimorfismo e interfaces em Java, ampliando o entendimento sobre orientação a objetos.
 
-    - `B_CriacaoDeClasses`: Atividades sobre criação e uso de classes e objetos em Java.
+- **F_Colecoes_Genericas**: Atividades sobre as coleções genéricas em Java, como List, Set, Map, entre outras.
 
-    - `C_Arrays_ArraysList`: Atividades sobre arrays e ArrayLists em Java.
+- **Z_EmSala**: Atividades desenvolvidas em sala de aula, organizadas por tópicos para fácil acesso e revisão. Esta pasta contém subpastas correspondentes aos tópicos acima mencionados, reunindo todas as atividades desenvolvidas em sala de aula.
 
-    - `D_Reuso`: Atividades sobre reuso de classes e herança em Java.
-
-    - `E_ClassesAbstratas_Polimorfismo_interfaces`: Atividades sobre abstração, polimorfismo e interfaces em Java.
+Cada pasta possui subpastas correspondentes aos mesmos tópicos para facilitar a busca e organização dos exercícios.
