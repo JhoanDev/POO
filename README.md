@@ -24,7 +24,7 @@ As pastas estão organizadas de acordo com os seguintes tópicos:
 
 - **E_ClassesAbstratas_Polimorfismo_interfaces**: Atividades sobre abstração, polimorfismo e interfaces em Java, ampliando o entendimento sobre orientação a objetos.
 
-- **F_Colecoes_Genericas**: Atividades sobre as coleções genéricas em Java, como List, Set, Map, entre outras.
+- **F_ColecoesGenericas**: Atividades sobre as coleções genéricas em Java, como List, Set, Map, entre outras.
 
 - **Z_EmSala**: Atividades desenvolvidas em sala de aula, organizadas por tópicos para fácil acesso e revisão. Esta pasta contém subpastas correspondentes aos tópicos acima mencionados, reunindo todas as atividades desenvolvidas em sala de aula.
 
