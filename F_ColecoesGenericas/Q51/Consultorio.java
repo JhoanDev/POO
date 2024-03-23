@@ -1,63 +1,41 @@
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.ArrayDeque;
 
 public class Consultorio {
+    static ArrayDeque<Paciente> filaPrioritaria = new ArrayDeque<>();
+    static ArrayDeque<Paciente> filaComum = new ArrayDeque<>();
+    static int max_pacientes = 0;
+
     public static void main(String[] args) {
-        PriorityQueue<Paciente> filaPrioritaria = new PriorityQueue<>((a, b) -> b.getIdade() - a.getIdade());
-        Queue<Paciente> filaComum = new LinkedList<>();
+
         int tempoAtual = 0;
-        int tempoUltimaPaciente = 0;
-        int max_Atendimentos = 20;
-        int atendimentos_atuais = 0;
-
-        while (atendimentos_atuais < max_Atendimentos) {
-            if (tempoAtual - 4 >= tempoUltimaPaciente) {
-                Paciente novo = new Paciente();
-                if (novo.getIdade() > 60) {
-                    filaPrioritaria.offer(novo);
-                    System.out.println("Paciente prioritário adicionado à fila: " + novo);
-                } else {
-                    filaComum.offer(novo);
-                    System.out.println("Paciente comum adicionado à fila: " + novo);
-                }
-                tempoUltimaPaciente += 4;
+        adicionaAFila();
+        for (tempoAtual = 1; tempoAtual <= 100; tempoAtual++) {
+            if (tempoAtual % 4 == 0 && max_pacientes < 20) {
+                adicionaAFila();
             }
+            if (tempoAtual % 5 == 0)
+                atende();
 
-            if (!filaPrioritaria.isEmpty()) {
-                System.out.println("Paciente prioritário atendido: " + filaPrioritaria.poll());
-                atendimentos_atuais++;
-                tempoAtual += 5;
-                if (tempoAtual - 4 >= tempoUltimaPaciente && atendimentos_atuais < max_Atendimentos) {
-                    Paciente novo = new Paciente();
-                  if (novo.getIdade() > 60) {
-                        filaPrioritaria.offer(novo);
-                        System.out.println("Paciente prioritário adicionado à fila: " + novo);
-                    } else {
-                        filaComum.offer(novo);
-                        System.out.println("Paciente comum adicionado à fila: " + novo);
-                    }
-                    tempoUltimaPaciente += 4;
-                }
-
-            } else if (!filaComum.isEmpty()) {
-                System.out.println("Paciente comum atendido: " + filaComum.poll());
-                atendimentos_atuais++;
-                tempoAtual += 5;
-                if (tempoAtual - 4 >= tempoUltimaPaciente && atendimentos_atuais < max_Atendimentos) {
-                    Paciente novo = new Paciente();
-                    if (novo.getIdade() > 60) {
-                        filaPrioritaria.offer(novo);
-                        System.out.println("Paciente prioritário adicionado à fila: " + novo);
-                    } else {
-                        filaComum.offer(novo);
-                        System.out.println("Paciente comum adicionado à fila: " + novo);
-                    }
-                    tempoUltimaPaciente += 4;
-                }
-            } else {
-                tempoAtual++;
-            }
         }
+    }
+
+    public static void adicionaAFila() {
+        Paciente novo = new Paciente();
+        if (novo.getIdade() > 60) {
+            filaPrioritaria.add(novo);
+            System.out.println("Paciente " + ++max_pacientes + " foi adicionado a fila prioritaria");
+        } else {
+            filaComum.add(novo);
+            System.out.println("Paciente " + ++max_pacientes + " foi adicionado a fila comum");
+        }
+    }
+
+    public static void atende() {
+        if (!filaPrioritaria.isEmpty())
+            System.out.println("Atendido da prioritaria: " + filaPrioritaria.removeFirst());
+        else if (!filaComum.isEmpty())
+            System.out.println("Atendido da comum: " + filaComum.removeFirst());
+        else
+            System.out.println("Filas vazias!");
     }
 }
