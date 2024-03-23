@@ -6,16 +6,13 @@ public class Consultorio {
     static int max_pacientes = 0;
 
     public static void main(String[] args) {
-
         int tempoAtual = 0;
         adicionaAFila();
         for (tempoAtual = 1; tempoAtual <= 100; tempoAtual++) {
-            if (tempoAtual % 4 == 0 && max_pacientes < 20) {
+            if (tempoAtual % 4 == 0 && max_pacientes < 20) 
                 adicionaAFila();
-            }
             if (tempoAtual % 5 == 0)
                 atende();
-
         }
     }
 
