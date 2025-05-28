@@ -1,0 +1,11 @@
+[CS-UFG - 2024 - Câmara de Anápolis - GO - Analista Administrativo - Analista de Siste-
+mas] Considere o trecho abaixo de código escrito na linguagem Java
+
+Suponha um vetor inteiro v de tamanho 5. Ao entrar com valores v = [3, 7, 2, 3, 10] a
+saída deste vetor após passar pelo código será
+(A) v = [10, 7, 3, 3, 2].
+(B) v = [2, 3, 10, 3, 7].
+(C) v = [3, 3, 2, 10, 7].
+(D) v = [2, 3, 3, 7, 10].
+
+R: (D)
