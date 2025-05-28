@@ -1,0 +1,11 @@
+[FADE - UFPE - 2023 - UFPE - Analista de Tecnologia da Informação - Área: Sistemas]
+Considere o seguinte código em Java:
+
+A execução desse código resulta na impressão do seguinte valor:
+(A) 4
+(B) 3
+(C) 2
+(D) 1
+(E) 0
+
+R: (A)
