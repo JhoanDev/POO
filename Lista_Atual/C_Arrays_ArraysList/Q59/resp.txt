@@ -1,0 +1,11 @@
+[UFU-MG - 2023 - Analista de Tecnologia da Informação Área 1 - Desenvolvimento de
+Sites, Aplicações e Sistemas] Analise o programa em java, descrito a seguir, e marque a
+alternativa correta que apresenta o resultado correto da execução desse programa.
+
+
+(A) 36
+(B) 42
+(C) 33
+(D) 26
+
+R: (A)

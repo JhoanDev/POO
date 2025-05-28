@@ -1,0 +1,12 @@
+[IFRN - 2009 - Professor - Sistemas de Informação] Analise o seguinte código Java,
+abaixo:
+
+Assinale a alternativa que contém o número da linha do código acima que promove um
+erro de compilação.
+
+(A) 2
+(B) 7
+(C) 8
+(D) 10
+
+R: (C)
