@@ -1,0 +1,10 @@
+[UFMA - 2023 - Analista de Tecnologia da Informação] Na linguagem de programação
+JAVA, qual das seguintes alternativas representa uma declaração válida?
+
+(A) char[ ] ch = new char[5]
+(B) char[ ] ch = new char(5)
+(C) char[ ] ch = new char( )
+(D) char[ ] ch = new char[ ]
+(E) char[] ch = new [5]
+
+R: (A)
