@@ -1,0 +1,25 @@
+[CONSULPLAN - 2017 - TRF - 2ª REGIÃO - Analista Judiciário - Informática Desen-
+volvimento] “Um array em Java é uma coleção ordenada que ocupa uma porção fixa e
+sequencial da memória. Além disso, é definido como uma estrutura homogênea, pois
+armazena um determinado tipo de dado. Esse, por sua vez, faz referências para objetos,
+valores de um tipo primitivo ou para outros arrays.” Considere que o usuário digitou os
+valores: 14, 40, 16, 22 e 60 para o array. Assinale a alternativa que contém o valor que
+será exibido quando executado o código Java a seguir.
+
+for (i = 0; i < 5; i++) {
+    for (j = 0; j < 4; j++) {
+        if (vetor[j] < vetor[j + 1]) {
+            aux = vetor[j];
+            vetor[j] = vetor[j + 1];
+            vetor[j + 1] = aux;
+        }
+    }
+}
+
+(A) 14, 16, 22, 40 e 60.
+(B) 28, 32, 44, 80 e 120.
+(C) 60, 40, 22, 16 e 14.
+(D) 120, 80, 44, 32 e 28.
+
+
+R: (C)
