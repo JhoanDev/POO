@@ -1,0 +1,22 @@
+(A) Ocorrerá uma exceção do tipo NullPointerException, pois na terceira linha não foi
+definido o número de linhas da array dados.
+
+R: Não.
+
+(B) Ao tirar o comando dados[i] = new int[5]; o programa executará normalmente.
+
+R: Não, pois o java precisa saber o tamanho do array statico
+
+(C) O comando int[][] dados = new int[5][]; precisa obrigatoriamente ser substi-
+tuído por int[][] dados = new int[5][5];.
+
+R: Não necessariamente.
+
+(D) i < 5 na quarta linha pode ser substituído por i < dados.length sem afetar a lógica
+de execução.
+
+R: Sim sem problemas.
+
+(E) Ocorrerá uma exceção do tipo NullPointerException no comando dados [i][j] = i + j;.
+
+R: Nao.
