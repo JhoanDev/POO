@@ -9,5 +9,4 @@ public class EventoHeranca extends DataHora {
     public String toString() {
         return "Evento: " + evento + "\nData: " + super.toString() + "\n";
     }
-
 }
