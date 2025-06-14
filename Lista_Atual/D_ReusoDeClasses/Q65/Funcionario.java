@@ -1,41 +1,26 @@
-package Lista_Atual.D_ReusoDeClasses.Q65;
-
 public class Funcionario {
     private String nome;
     private double salario;
 
-    public Funcionario(String nome, double salario){
+    
+    public Funcionario(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;
     }
 
-    public void aumentarSalario(double aumento){
-        this.salario += aumento;
+    public void aumentarSalario(float valor) {
+        salario += valor;
     }
 
-    public double ganhoAnual(){
-        return this.salario *13;
+    public double ganhoAnual() {
+        return salario * 13;
     }
 
     @Override
     public String toString() {
-        return ", nome=" + nome + ", salario=" + salario + " ";
+        String str = "";
+        str += "Nome: " + nome + "\n";
+        str += "Salario: " + salario + "\n";
+        return str;
     }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public double getSalario() {
-        return salario;
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
-    }
-    
 }

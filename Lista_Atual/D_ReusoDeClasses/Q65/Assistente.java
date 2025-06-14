@@ -1,23 +1,23 @@
-package Lista_Atual.D_ReusoDeClasses.Q65;
-
 public class Assistente extends Funcionario{
-    private String matricula;
+    private int numMatricula;
 
-    public Assistente(String nome, double salario, String matricula){
+    public Assistente(String nome, double salario, int numMatricula) {
         super(nome, salario);
-        this.matricula = matricula;
+        this.numMatricula = numMatricula;
     }
 
-    public String getMatricula(){
-        return matricula;
+    public int getNumMatricula() {
+        return numMatricula;
     }
 
-    public void setMatricula(String matricula){
-        this.matricula = matricula;
+    public void setNumMatricula(int numMatricula) {
+        this.numMatricula = numMatricula;
     }
 
     @Override
     public String toString() {
-        return ", matricula=" + matricula + super.toString();
+        String str = super.toString();
+        str += "Matricula: " + numMatricula + "\n";
+        return str;
     }
 }

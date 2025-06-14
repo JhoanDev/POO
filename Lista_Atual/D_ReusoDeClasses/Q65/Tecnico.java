@@ -1,23 +1,21 @@
-package Lista_Atual.D_ReusoDeClasses.Q65;
-
 public class Tecnico extends Assistente {
-    private double bonus;
+    private double bonusSalarial;
 
-    public Tecnico(String nome, double salario, String matricula, double bonus) 
-    {
-        super(nome, salario, matricula);
-        this.bonus = bonus;
 
-        
-    }
-
-    public double ganhoAnual(){
-        return (super.getSalario()*bonus) * 13;
+    public Tecnico(String nome, double salario, int numMatricula, double bonusSalarial) {
+        super(nome, salario, numMatricula);
+        this.bonusSalarial = bonusSalarial;
     }
 
     @Override
-    public String toString() {
-        return "Tecnico [bonus=" + bonus + super.toString() + "]";
+    public double ganhoAnual() {
+        return super.ganhoAnual() * (1 + bonusSalarial);
     }
 
-}
+    @Override
+        public String toString() {
+            String str = super.toString();
+            str += "Bonus Salarial: " + (bonusSalarial * 100) + "%\n";
+            return str;
+        }
+    }

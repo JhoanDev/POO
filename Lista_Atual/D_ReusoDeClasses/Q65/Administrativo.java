@@ -1,27 +1,31 @@
-package Lista_Atual.D_ReusoDeClasses.Q65;
-
 public class Administrativo extends Assistente {
-    private String turno;
+    private boolean turno; // true = dia, false = noite
+    private double adicionalNoturno;
 
-    public Administrativo(String nome, double salario, String matricula, String turno) {
-        super(nome, salario, matricula);
+    public Administrativo(String nome, double salario, int numMatricula, boolean turno) {
+        super(nome, salario, numMatricula);
+        this.turno = turno;
+        this.adicionalNoturno = turno ? 0 : salario * 0.2;
+    }
+
+    public boolean isTurno() {
+        return turno;
+    }
+
+    public void setTurno(boolean turno) {
         this.turno = turno;
     }
 
-    public double ganhoAnual() {
-        double ganho = 0;
+    public double getAdicionalNoturno() {
+        return adicionalNoturno;
+    }
 
-        if (turno == "noite") {
-            ganho = (super.getSalario() * 1.10) * 12 + super.getSalario();
-        } else {
-            ganho = super.getSalario() * 13;
-        }
-        return ganho;
+    public void setAdicionalNoturno(double adicionalNoturno) {
+        this.adicionalNoturno = adicionalNoturno;
     }
 
     @Override
-    public String toString() {
-        return "Administrativo [turno=" + turno + super.toString() + "]";
+    public double ganhoAnual() {
+        return super.ganhoAnual() + 12*adicionalNoturno;
     }
-    
 }
