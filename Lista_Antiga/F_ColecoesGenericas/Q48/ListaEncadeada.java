@@ -9,6 +9,7 @@ public class ListaEncadeada {
             itr.next();
         while (itr.hasPrevious()) 
             copia.add(itr.previous());
+
         System.out.println("Lista inicial: " + lista);
         System.out.println("Copia invertida: " + copia);
     }

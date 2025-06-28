@@ -18,7 +18,6 @@ public class Pilha {
                 fecha++;
             else if(fecha > 0)
                 fecha--;
-            
             else{
                 balanceada = false;
                 break;
