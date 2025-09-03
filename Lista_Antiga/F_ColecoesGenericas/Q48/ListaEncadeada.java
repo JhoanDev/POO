@@ -7,10 +7,12 @@ public class ListaEncadeada {
         ListIterator <Character> itr = lista.listIterator();
         while (itr.hasNext())
             itr.next();
-        while (itr.hasPrevious()) 
+        while (itr.hasPrevious())
             copia.add(itr.previous());
-
         System.out.println("Lista inicial: " + lista);
         System.out.println("Copia invertida: " + copia);
     }
 }
+
+//*
+//----------
